@@ -1,8 +1,39 @@
 li {
 display: inline;
+background-color: gainsboro;
+padding:15px;
+
+}
+/*ol{
+    
+}*/
+th{
+    font-style: bold;
+    text-align: center;
+}
+hr
+{
+background-color: red;
+height:20px;
+width: 4px;
+text-align: center;
+}
+td{
+    text-align: center;
+    font-size: 10px;
+}
+.fa-sharp fa-regular fa-square{
+    text-align: right;
 
 
 }
-ol{
-    padding: 1px;
+button{
+    background-color: gray;
+    font-size: 20px;
+    font-style: Bold;
+    text-align: center;
+    border-bottom: 10px;
+}
+footer{
+    background-color: gainsboro;
 }
