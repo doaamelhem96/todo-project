@@ -1,39 +1,102 @@
 li {
-display: inline;
-background-color: gainsboro;
-padding:15px;
+    display: inline;
+  
+    padding: 15px;
 
 }
-ol{
+
+ol {
     list-style-type: none;
 }
-th{
+nav{
+    background-color: #ccc;
+}
+th {
     font-style: bold;
     text-align: center;
 }
-hr
-{
-background-color: red;
-height:20px;
-width: 4px;
-text-align: center;
+ #t1 , #th1, #td1{
+     border: 1px solid;
+     width:420px;
 }
-td{
+hr {
+    background-color: red;
+    height: 10px;
+    width: 40px;
+    text-align: center;
+}
+
+td {
     text-align: center;
     font-size: 10px;
 }
-.fa-sharp fa-regular fa-square{
+td p
+{
+    margin-left: 100px;
+    color: rgb(106, 18, 18);
+  
+    font-size: 20px;
+    font-weight: bold;
+}
+h1{color: red;
+    
+font-size: 30px;
+margin-top: 40px;
+margin-left: 200px;
+padding: -130px;
+
+}
+
+
+
+ img {
+    height: 80px;
+   
+   
+    text-align: justify;
+}
+
+
+
+.fa-sharp fa-regular fa-square {
     text-align: right;
 
 
 }
-button{
+
+
+
+table  {
+
+   
+    display: block;
+  margin-left: 112px;
+  width: 80px;
+
+    
+}
+
+
+button {
     background-color: gray;
     font-size: 20px;
     font-style: Bold;
-    text-align: center;
+   
     border-bottom: 10px;
+
+   margin-left: 120px;
 }
-footer{
+input
+{width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;}*/
+
+footer .f {
+    width: 5000px;
+    height: 70px;
     background-color: gainsboro;
 }
