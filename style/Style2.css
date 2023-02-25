@@ -4,9 +4,9 @@ background-color: gainsboro;
 padding:15px;
 
 }
-/*ol{
-    
-}*/
+ol{
+    list-style-type: none;
+}
 th{
     font-style: bold;
     text-align: center;
