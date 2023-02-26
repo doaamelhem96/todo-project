@@ -76,7 +76,6 @@ table  {
     
 }
 
-
 button {
     background-color: gray;
     font-size: 20px;
@@ -96,6 +95,6 @@ input
   transition: 0.5s;}
 
  .f {
-    height: 400px;
+    height: 40px;
     background-color: #ccc;
 }
