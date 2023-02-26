@@ -1,51 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-    
- nav {
-   display: flexbox;
-   background-color: rgba(240, 127, 6, 0.727) ;
- }
- </style>
-</head>
-<body>
-    <nav>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
    
-        <img style="width:70p; height:70px; vertical-align:left" alt="Restaurant-Logo" src="r-logo.jpg"  >
-           
-            <h1  style="text-align:center;font-size:300%;font-family:courier;color:rgb(52, 93, 28);"> Roze-Restaurant</h1>
-              
-       </nav>
-    <main>
-    
-        <section style="text-decoration:solid;">
-         <p>
-            Roze Restaurant established since 2000 .
-         </p>
-            
-          </section>
-          <section>
-            <form >
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="user_name" />
-                <label for="mail">E-mail:</label>
-                <input type="email" id="mail" name="user_mail" />
-                <label for="msg">Message:</label>
-                <textarea id="msg" name="user_message"></textarea>
-                <button type="submit">Send your message</button>
-              </form>
-          </section> 
-          </main>
-          <br><br>
-      <footr style="background-color: rgba(255, 196, 0, 0.856);">
-        <p>&copy Roze-Restaurant </p>
-        <p> 00962780727316</p>
-      </footr>
-    
+  li {
+    display: inline;
+  
+    padding: 15px;
+
+}
+
+ol {
+    list-style-type: none;
+}
+nav{
+    background-color: #ccc;
+}
+    footer{
+      background-color: #dddddd;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <ol>
+
+   <li> <img style="width:70p; height:70px; vertical-align:left" alt="Restaurant-Logo" src="r-logo.jpg">
+</li>
+<li>< a href="index.html">Home</a></li>
+<li>< a href="about.html">About</a></li>
+</ol>
+    <h1 style="text-align:center;font-size:300%;font-family:courier;color:rgb(52, 93, 28);"> ToDo-Site</h1>
+
+  </nav>
+  <main>
+
+    <section style="text-decoration:solid;">
+      <p>
+       Todo-site established since 2000 .
+      </p>
+
+    </section>
+    <section>
+      <form>
+        <table>
+          <tr>
+            <td>
+              Name:
+            </td>
+            <td><input type="text" id="name" name="user_name" /></td>
+          </tr>
+          <tr>
+            <td>E-mail:</td>
+            <td><input type="email" id="mail" name="user_mail" /></td>
+          </tr>
+          <tr>
+            <td>Message:</td>
+            <td><textarea id="msg" name="user_message"></textarea></td>
+          </tr>
+          <tr>
+            <td><button type="submit">Send your message</button></td>
+          </tr>
+        </table>
+      </form>
+    </section>
+  </main>
+  <br><br>
+  <footr style="background-color: rgba(255, 196, 0, 0.856);">
+    <p>&copy Todo-site </p>
+    <p> 00962780727316</p>
+  </footr>
+
 </body>
+
 </html>

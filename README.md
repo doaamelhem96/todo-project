@@ -1,5 +1,6 @@
 # todo-project
 
-![h](0.jpg)
-
-![about page](00.jpg)
+- Index WireFrame
+![h](index.jpg)
+- about  WireFrame
+![about page](about.jpg)
