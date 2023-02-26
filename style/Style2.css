@@ -76,7 +76,6 @@ table  {
     
 }
 
-
 button {
     background-color: gray;
     font-size: 20px;
@@ -93,10 +92,9 @@ input
   box-sizing: border-box;
   border: 3px solid #ccc;
   -webkit-transition: 0.5s;
-  transition: 0.5s;}*/
+  transition: 0.5s;}
 
-footer .f {
-    width: 5000px;
-    height: 70px;
-    background-color: gainsboro;
+ .f {
+    height: 40px;
+    background-color: #ccc;
 }
