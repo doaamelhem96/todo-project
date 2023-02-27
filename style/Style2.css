@@ -1,11 +1,21 @@
 li {
     display: inline;
+    padding:.9%;
+    
   
-    padding: 15px;
+   
 
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    width:100px;
+}
 
-ol {
+
+
+ ol {
+    display: inline;
     list-style-type: none;
 }
 nav{
@@ -65,6 +75,10 @@ padding: -130px;
 }
 
 
+a 
+{
+     text-decoration:none;
+}
 
 table  {
 
@@ -84,6 +98,11 @@ button {
     border-bottom: 10px;
 
    margin-left: 120px;
+}
+a:hover
+{
+    color: rgb(227, 22, 172);
+    cursor:grab;
 }
 input
 {width: 100%;
