@@ -21,7 +21,8 @@ header{
 nav{
     background-color: #ccc;
 }
-th {
+th
+{
     font-style: bold;
     text-align: center;
 }
@@ -30,7 +31,7 @@ th {
      width:420px;
 }
 hr {
-    background-color: red;
+    background-color: rgb(244, 22, 22);
     height: 10px;
     width: 40px;
     text-align: center;
