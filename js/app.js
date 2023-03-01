@@ -1,5 +1,5 @@
 var userName=prompt("Enter Your Name");
-var Gender=prompt("Enter Your Gender:please typing Female/female or Male/male");
+var Gender=prompt("Enter Your Gender" + "\n"+"please type: Female, female "+"\t"+"or\t "+ " Male, male");
 var Age=prompt("Enter Your Age");
 if (Age<=0){
 alert("your Age is less than or equal Zero!");

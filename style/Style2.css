@@ -91,9 +91,11 @@ table  {
 }
 
 button {
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.338);
     font-size: 20px;
     font-style: Bold;
+    font-family: cursive;
+    border-radius: 8px;
    
     border-bottom: 10px;
 
